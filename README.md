@@ -35,6 +35,9 @@ Tools/IDE	    : Jupyter. Notebook
 Libraries	    : TensorFlow 2.0, VGG19
 ```
 
+## Model Training
+![Model Training](model_training.png)
+
 ## Performance Metrics
 | Dataset | Training | Test |
 | ------- | -------- | ---------- |
@@ -55,6 +58,7 @@ Libraries	    : TensorFlow 2.0, VGG19
  
 
 ## Confusion Matrices
+![VGG19](confusion_matrix_01.png)
 ![VGG19](confusion_matrix_02.png)
 ![VGG19](confusion_matrix_03.png)
 
