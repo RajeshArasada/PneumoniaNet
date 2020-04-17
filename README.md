@@ -35,16 +35,6 @@ Tools/IDE	    : Jupyter. Notebook
 Libraries	    : TensorFlow 2.0, VGG19
 ```
 
-Dataset	Training Data	Test Data
-Accuracy	0.99	0.97
-Loss	0.04223	0.2275
-Precision
-(COVID/ Non-COVID)	0.96/0.99	1.0/ 0.94
-Recall
-(COVID/ Non-COVID)	0.93/0.99	0.93/1.0
-		
-
-
 ## Performance Metrics
 | Dataset | Training | Test |
 | ------- | -------- | ---------- |
@@ -65,6 +55,7 @@ Recall
  
 
 ## Confusion Matrices
+![VGG19](confusion_matrix_02.png)
 ![VGG19](confusion_matrix_03.png)
 
 
