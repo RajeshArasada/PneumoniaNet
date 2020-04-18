@@ -26,6 +26,7 @@ Description
 
 Dataset Name		    :[covid-chestxray-dataset](https://github.com/ieee8023/covid-chestxray-dataset), [chest X-ray](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
 Original Publication: [Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
 Number of Classes		: 2
 
 ## Tools/ Libraries
