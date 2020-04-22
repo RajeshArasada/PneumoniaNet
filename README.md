@@ -1,5 +1,6 @@
-# PneumoniaNet
+# PneumoniaNet 
 A neural network for COVID-19 detection
+[Blog](https://RajeshArasada.github.io)
 # Deep neural network for COVID-19 detection in Chest X-rays
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -59,8 +60,9 @@ Libraries	    : TensorFlow 2.0, VGG19
  
 
 ## Confusion Matrices
-![VGG19](confusion_matrix_01.png)
-![VGG19](confusion_matrix_02.png)
-![VGG19](confusion_matrix_03.png)
+![VGG19](images/confusion_matrix_01.png)
+![VGG19](images/confusion_matrix_02.png)
+![VGG19](images/confusion_matrix_03.png)
 
-
+# Test Predictions
+![Test Predictions](images/Predictions.png)
