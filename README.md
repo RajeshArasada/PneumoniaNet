@@ -38,15 +38,33 @@ Libraries	    : TensorFlow 2.0, VGG19
 ```
 
 ## Model Training
-![Model Training](model_training.png)
+![Model Training](images/model_training.png)
 
 ## Performance Metrics
-| Dataset | Training | Test |
-| ------- | -------- | ---------- |
-| Accuracy | 0.99	| 0.97 |
-| Loss | 0.04223 | 0.2275 |
-| Precision (COVID/ Non-COVID)| 0.96/0.99 | 1.0/ 0.94 |
- | Recall (COVID/ Non-COVID)| 0.93/0.99 |	0.93/1.0 |
+### Validation Dataset
+
+| ﻿             | `precision`	 | `recall`	 | `f1-score`	 | `support` 	|
+|:-------------|:-----------:|:--------:|:----------:|---------:|
+|              |           |        |          |         |
+| COVID        | 0.98      | 0.97    | 0.97     | 60    |
+| non COVID    | 1.00      | 1.00     | 1.00     | 553   |
+|              |           |        |          |         |
+| accuracy     |           |        | 1.00     | 613    |
+| macro avg    | 0.99      | 0.98   | 0.99     | 613    |
+| weighted avg | 1.00      | 1.00   | 1.00     | 613    |
+
+### Test Dataset
+
+| ﻿             | `precision`	 | `recall`	 | `f1-score`	 | `support` 	|
+|:-------------|:-----------:|:--------:|:----------:|---------:|
+|              |           |        |          |         |
+| COVID        | 1.00      | 0.93    | 0.96     | 28    |
+| non COVID    | 0.94      | 1.00     | 0.97     | 30   |
+|              |           |        |          |         |
+| accuracy     |           |        | 0.97     | 58    |
+| macro avg    | 0.97      | 0.96   | 0.97     | 58    |
+| weighted avg | 0.97      | 0.97   | 0.97     | 58    |
+
 
 ## Model and Training Parameters
 | Parameter | Value |
